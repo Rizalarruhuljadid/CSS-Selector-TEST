@@ -1,0 +1,51 @@
+!DOCTYPE html>
+<html>
+<head>
+	<title>Contoh Kode HTML - CSS dengan Selector</title>
+	<style>
+		/* Selector untuk tag <h1> */
+		h1 {
+			color: blue;
+			font-size: 36px;
+			font-family: Arial, sans-serif;
+		}
+
+		/* Selector untuk class "kotak" */
+		.kotak {
+			background-color: yellow;
+			width: 200px;
+			height: 200px;
+			margin: 10px;
+			padding: 10px;
+			border: 1px solid black;
+			float: left;
+		}
+
+		/* Selector untuk id "header" */
+		#header {
+			background-color: gray;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1>Contoh Kode HTML - CSS dengan Selector</h1>
+	</div>
+
+	<div class="kotak">
+		<p>Ini adalah contoh kotak pertama.</p>
+	</div>
+
+	<div class="kotak">
+		<p>Ini adalah contoh kotak kedua.</p>
+	</div>
+
+	<div class="kotak">
+		<p>Ini adalah contoh kotak ketiga.</p>
+	</div>
+
+</body>
+</html>
